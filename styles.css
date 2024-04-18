@@ -1,0 +1,41 @@
+.container {
+    background-color: #0056b3;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+input {
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 10px;
+ 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#scrambledText {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#stats {
+    margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Redaction</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Text Redaction</h2>
+    <input type="text" id="originalText" placeholder="Enter the original text here...">
+    <input type="text" id="wordsToScramble" placeholder="Enter words to scramble (separated by space)">
+    <button onclick="redactText()">Redact Now</button>
+    <div id="scrambledText"></div>
+    <div id="stats"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
